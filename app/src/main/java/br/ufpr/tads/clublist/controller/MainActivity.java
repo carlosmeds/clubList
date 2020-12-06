@@ -58,10 +58,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void createClub() {
-        club = new Club("Athletico Paranaense", "Curitiba");
+        club = new Club("Athletico Paranaense", "Curitiba", "Paraná", getString(R.string.gremio), "2010");
         listClubs.add(club);
-        club = new Club("Grêmio", "Porto Alegre");
+        club = new Club("Grêmio", "Porto Alegre", "Rio Grande do Sul", getString(R.string.atletico), "2000");
         listClubs.add(club);
+        club = new Club("São Paulo", "São Paulo", "São Paulo", getString(R.string.saopaulo), "2005");
+        listClubs.add(club);
+        club = new Club("Coritiba", "Curitiba", "Paraná", getString(R.string.coritiba), "2005");
+        listClubs.add(club);
+
     }
 
     public void handleRecyclerView(RecyclerView recyclerViewClubs) {

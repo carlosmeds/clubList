@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".controller.DetailActivity">
+    android:gravity="center"
+    tools:context=".controller.DetailActivity"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textViewDetailName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="175dp"
-        android:text="Time"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="2dp"
+        android:textSize="30sp"
+        android:text="Time" />
+
+    <ImageView
+        android:id="@+id/imageViewDetailImage"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewDetailCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/textViewDetailState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:text="Time" />
+
+
+
+    <TextView
+        android:id="@+id/textViewDetailTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:text="Time" />
+
+
+</LinearLayout>

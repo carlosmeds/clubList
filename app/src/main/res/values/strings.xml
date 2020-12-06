@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ClubList</string>
+    <string name="gremio">\@drawable/gremio</string>
+    <string name="atletico">\@drawable/atletico</string>
+    <string name="coritiba">@drawable/coxa</string>
+    <string name="saopaulo">@drawable/sp</string>
 </resources>
