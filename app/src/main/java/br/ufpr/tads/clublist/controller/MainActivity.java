@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void createClub() {
-        club = new Club("Athletico Paranaense", "Curitiba", "Paraná", getString(R.string.gremio), "2010");
+        club = new Club("Athletico Paranaense", "Curitiba", "Paraná", getString(R.string.gremio), "Copa do Brasil x1, Sul-Americana x1, Brasileirão x1, Copa Suruga x1");
         listClubs.add(club);
-        club = new Club("Grêmio", "Porto Alegre", "Rio Grande do Sul", getString(R.string.atletico), "2000");
+        club = new Club("Grêmio", "Porto Alegre", "Rio Grande do Sul", getString(R.string.atletico), "Libertadores x3, Brasileirão x2, Copa do Brasl x 5, Recopa x2, Mundial x1");
         listClubs.add(club);
-        club = new Club("São Paulo", "São Paulo", "São Paulo", getString(R.string.saopaulo), "2005");
+        club = new Club("São Paulo", "São Paulo", "São Paulo", getString(R.string.saopaulo), "Libertadores x3, Sul-Americana x1, Recopa x2, Brasileirão x6, Mundial x3");
         listClubs.add(club);
-        club = new Club("Coritiba", "Curitiba", "Paraná", getString(R.string.coritiba), "2005");
+        club = new Club("Coritiba", "Curitiba", "Paraná", getString(R.string.coritiba), "Brasileirão x1");
         listClubs.add(club);
 
     }

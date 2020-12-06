@@ -33,8 +33,6 @@ public class AdapterClubs extends RecyclerView.Adapter<AdapterClubs.MyViewHolder
             city = view.findViewById(R.id.textViewCity);
             state = view.findViewById(R.id.textViewState);
             image = view.findViewById(R.id.imageViewImage);
-
-
         }
     }
 
@@ -73,8 +71,6 @@ public class AdapterClubs extends RecyclerView.Adapter<AdapterClubs.MyViewHolder
         }
 
     }
-
-
 
     @Override
     public int getItemCount() {
